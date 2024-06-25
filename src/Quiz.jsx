@@ -60,204 +60,233 @@ const Quiz = () => {
         multipleChoice: [
             {
                 "id": 1,
-                "question": "Choose the correct form of the verb 'to be': She ___ a teacher.",
-                "options": ["is", "am", "are", "be"],
-                "answer": ["is"],
-                "selectedOption": null
-            },
-            {
-                "id": 2,
-                "question": "Choose the correct pronoun (Male): ___ is my best friend.",
-                "options": ["He", "She", "They", "We"],
-                "answer": ["He"],
-                "selectedOption": null
-            },
-            {
-                "id": 3,
-                "question": "Choose the correct possessive pronoun: This is ___ book.",
-                "options": ["my", "mine", "I", "me"],
-                "answer": ["my"],
-                "selectedOption": null
-            },
-            {
-                "id": 4,
-                "question": "Choose the correct form of the verb 'to be': They ___ at home.",
-                "options": ["is", "am", "are", "be"],
-                "answer": ["are"],
-                "selectedOption": null
-            },
-            {
-                "id": 5,
-                "question": "Choose the correct pronoun: ___ are going to the store.",
-                "options": ["He", "I", "We", "She"],
-                "answer": ["We"],
+                "question": "___ she like ice cream?",
+                "options": ["Do", "Does", "Is", "Are"],
+                "answer": ["Does"],
                 "selectedOption": null
             }
+            ,
+            {
+                "id": 2,
+                "question": "___ they usually go to the gym?",
+                "options": ["Do", "Does", "Is", "Are"],
+                "answer": ["Do"],
+                "selectedOption": null
+            }
+            ,
+            {
+                "id": 3,
+                "question": "They ___ basketball right now.",
+                "options": ["play", "plays", "are playing", "is playing"],
+                "answer": ["are playing"],
+                "selectedOption": null
+            }
+            ,
+            {
+                "id": 4,
+                "question": "What time ___ your English class start?",
+                "options": ["Do", "Does", "Is", "Are"],
+                "answer": ["does"],
+                "selectedOption": null
+            }
+            ,
+            {
+                "id": 5,
+                "question": "___ she always arrive late?",
+                "options": ["Do", "Does", "Is", "Are"],
+                "answer": ["Does"],
+                "selectedOption": null
+            }
+
         ]
         ,
         fillInTheBlank: [
             {
                 "id": 6,
-                "question": "I ___ happy to see you.",
+                "question": "He ___ (like) to play basketball on weekends.",
                 "options": [],
-                "answer": ["am", "AM", "Am"],
-                "selectedOption": null
-            },
-            {
-                "id": 7,
-                "question": "They ___ my friends.",
-                "options": [],
-                "answer": ["are", "Are", "ARE"],
-                "selectedOption": null
-            },
-            {
-                "id": 8,
-                "question": "She ___ not at home.",
-                "options": [],
-                "answer": ["is", "Is", "IS"],
-                "selectedOption": null
-            },
-            {
-                "id": 9,
-                "question": "We ___ ready to go.",
-                "options": [],
-                "answer": ["are", "Are", "ARE"],
-                "selectedOption": null
-            },
-            {
-                "id": 10,
-                "question": "He ___ my brother.",
-                "options": [],
-                "answer": ["is", "Is", "IS"],
+                "answer": ["likes", "Likes", "LIKES"],
                 "selectedOption": null
             }
+            ,
+            {
+                "id": 7,
+                "question": "She ___ (not have) any pets.",
+                "options": [],
+                "answer": ["does not have", "doesn't have", "Does not have", "Doesn't have", "DOES NOT HAVE", "DOESN'T HAVE"],
+                "selectedOption": null
+            }
+            ,
+            {
+                "id": 8,
+                "question": "They ___ (play) soccer at the moment.",
+                "options": [],
+                "answer": ["are playing", "Are playing", "ARE PLAYING"],
+                "selectedOption": null
+            }
+            ,
+            {
+                "id": 9,
+                "question": "John ___ (not live) in London.",
+                "options": [],
+                "answer": ["does not live", "doesn't live", "Does not live", "Doesn't live", "DOES NOT LIVE", "DOESN'T LIVE"],
+                "selectedOption": null
+            }
+            ,
+            {
+                "id": 10,
+                "question": "What time ___ the movie start?",
+                "options": [],
+                "answer": ["does", "Does", "DOES"],
+                "selectedOption": null
+            }
+
         ]
         ,
         errorIdentification: [
             {
                 "id": 11,
-                "question": "They is going to the park.",
-                "options": ["They", "is", "going", "to"],
-                "answer": ["is"],
-                "selectedOption": null
-            },
-            {
-                "id": 12,
-                "question": "She are a doctor.",
-                "options": ["she", "are", "a", "doctor"],
-                "answer": ["are"],
-                "selectedOption": null
-            },
-            {
-                "id": 13,
-                "question": "I am happy to see they.",
-                "options": ["I", "am", "happy", "they"],
-                "answer": ["they"],
-                "selectedOption": null
-            },
-            {
-                "id": 14,
-                "question": "You is my friend.",
-                "options": ["You", "is", "my", "friend"],
-                "answer": ["is"],
-                "selectedOption": null
-            },
-            {
-                "id": 15,
-                "question": "This is hers book.",
-                "options": ["this", "is", "hers", "book"],
-                "answer": ["hers"],
+                "question": "He don't like to eat vegetables.",
+                "options": ["don't", "doesn't", "like", "likes"],
+                "answer": ["don't"],
                 "selectedOption": null
             }
+
+            ,
+            {
+                "id": 12,
+                "question": "John don't have a car.",
+                "options": ["don't", "doesn't", "have", "has"],
+                "answer": ["don't"],
+                "selectedOption": null
+            }
+
+            ,
+            {
+                "id": 13,
+                "question": "She are studying for her exam.",
+                "options": ["She", "are", "studying", "for"],
+                "answer": ["are"],
+                "selectedOption": null
+            }
+
+            ,
+            {
+                "id": 14,
+                "question": "They goes to the gym every morning.",
+                "options": ["They", "goes", "to", "the"],
+                "answer": ["goes"],
+                "selectedOption": null
+            }
+
+            ,
+            {
+                "id": 15,
+                "question": "She doesn't like to plays tennis.",
+                "options": ["doesn't", "like", "to", "plays"],
+                "answer": ["plays"],
+                "selectedOption": null
+            }
+
         ]
         ,
         sentenceCompletion: [
             {
                 "id": 16,
-                "question": "___ (Male) has a dog.",
-                "options": ["He", "She"],
-                "answer": ["He", "he", "HE"],
-                "selectedOption": null
-            },
-            {
-                "id": 17,
-                "question": "___ (Them) are going to the cinema.",
-                "options": ["They", "We"],
-                "answer": ["They", "They", "THEY"],
-                "selectedOption": null
-            },
-            {
-                "id": 18,
-                "question": "___ (Me) am very tired.",
-                "options": ["I", "You"],
-                "answer": ["I", "i"],
-                "selectedOption": null
-            },
-            {
-                "id": 19,
-                "question": "___ (She/He) is my sister.",
-                "options": ["She", "He"],
-                "answer": ["She", "she", "SHE"],
-                "selectedOption": null
-            },
-            {
-                "id": 20,
-                "question": "___ (Us) are friends.",
-                "options": ["We", "They"],
-                "answer": ["We", "WE", "we"],
+                "question": "She ___ (study) English every day.",
+                "options": [],
+                "answer": ["studies", "Studies", "STUDIES"],
                 "selectedOption": null
             }
+            ,
+            {
+                "id": 17,
+                "question": "He ___ (not like) coffee.",
+                "options": [],
+                "answer": ["does not like", "doesn't like", "Does not like", "Doesn't like", "DOES NOT LIKE", "DOESN'T LIKE"],
+                "selectedOption": null
+            }
+            ,
+            {
+                "id": 18,
+                "question": "They ___ (play) basketball right now.",
+                "options": [],
+                "answer": ["are playing", "Are playing", "ARE PLAYING"],
+                "selectedOption": null
+            }
+            ,
+            {
+                "id": 19,
+                "question": "She ___ (go) to the gym every morning.",
+                "options": [],
+                "answer": ["goes", "Goes", "GOES"],
+                "selectedOption": null
+            }
+            ,
+            {
+                "id": 20,
+                "question": "___ they speak Spanish?",
+                "options": [],
+                "answer": ["Do", "do", "DO"],
+                "selectedOption": null
+            }
+
         ]
         ,
         paragraphInterpretation: [
             {
                 "id": 21,
-                "question": "Who is ten years old?",
-                "options": ["Anna", "Tom", "Lucy", "John"],
-                "answer": ["Tom"],
-                "selectedOption": null
-            },
-            {
-                "id": 22,
-                "question": "What is the name of Anna's cat?",
-                "options": ["Tom", "Lucy", "Whiskers", "John"],
-                "answer": ["Whiskers"],
-                "selectedOption": null
-            },
-            {
-                "id": 23,
-                "question": "How old is Lucy?",
-                "options": ["Five", "Ten", "Seven", "Three"],
-                "answer": ["Five"],
-                "selectedOption": null
-            },
-            {
-                "id": 24,
-                "question": "What is the name of Anna's mother?",
-                "options": ["Anna", "Mary", "Lucy", "Whiskers"],
-                "answer": ["Mary"],
-                "selectedOption": null
-            },
-            {
-                "id": 25,
-                "question": "Where does Anna live?",
-                "options": ["In a big house", "In a small house", "In an apartment", "In a city"],
-                "answer": ["In a small house"],
+                "question": "What does Mary enjoy doing every weekend?",
+                "options": ["Visiting the beach", "Going shopping", "Visiting the local zoo", "Playing video games"],
+                "answer": ["Visiting the local zoo"],
                 "selectedOption": null
             }
+            ,
+            {
+                "id": 22,
+                "question": "What is Mary's favorite animal?",
+                "options": ["Lion", "Monkey", "Giraffe", "Bird"],
+                "answer": ["Giraffe"],
+                "selectedOption": null
+            }
+            ,
+            {
+                "id": 23,
+                "question": "What does Mary want to become in the future?",
+                "options": ["Teacher", "Doctor", "Veterinarian", "Engineer"],
+                "answer": ["Veterinarian"],
+                "selectedOption": null
+            }
+            ,
+            {
+                "id": 24,
+                "question": "Which animal did they see last Sunday?",
+                "options": ["Giraffe", "Monkey", "Lion", "Bird"],
+                "answer": ["Lion"],
+                "selectedOption": null
+            }
+            ,
+            {
+                "id": 25,
+                "question": "What does Mary like about giraffes?",
+                "options": ["Their long necks and kind eyes", "Their colorful feathers", "Their playful nature", "Their fierce roar"],
+                "answer": ["Their long necks and kind eyes"],
+                "selectedOption": null
+            }
+
         ]
         ,
 
-        audioComprehension: [
-            {
-                id: 100,
-                question: " What is Julie's favorite color?",
-                options: ["Blue", "Green"],
-                answer: "Blue",
-                selectedOption: null,
-                audio: julie
-            },
-        ],
+        // audioComprehension: [
+        //     {
+        //         id: 100,
+        //         question: " What is Julie's favorite color?",
+        //         options: ["Blue", "Green"],
+        //         answer: "Blue",
+        //         selectedOption: null,
+        //         audio: julie
+        //     },
+        // ],
     });
 
 
@@ -429,7 +458,7 @@ const Quiz = () => {
                 <img className='w-[150px]' src={reading} alt='' />
             </div>
             <div className='pt-7 '>
-                <p className='mb-2 px-10 text-justify font-light text-gray-700'>My name is Anna. I am a student. I have a brother and a sister. My brother's name is Tom. He is ten years old. My sister's name is Lucy. She is five years old. We have a cat. Its name is Whiskers. My parents are very kind. My father's name is John and my mother's name is Mary. We live in a small house. Our house is very cozy. I love my family.</p>
+                <p className='mb-2 px-10 text-justify font-light text-gray-700'>Mary loves animals. Every weekend, she visits the local zoo with her family. They enjoy watching the playful monkeys and the colorful birds. Mary's favorite animal is the gentle giraffe because of its long neck and kind eyes. Last Sunday, they also saw a fierce lion roaring in its enclosure. Mary dreams of becoming a veterinarian one day to help care for all kinds of animals.</p>
             </div>
             {renderQuestions("paragraphInterpretation", questions.paragraphInterpretation)}
 
